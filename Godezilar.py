@@ -3,6 +3,9 @@ from scapy.all import *
 feat_file = open('features.txt','w')
 label_file = open('labels.txt','w')
 
+def ret_feature(pkts):
+    return 1
+
 def ret_duration(pkts):
 	return pkts[-1].time - pkts[0].time
 
