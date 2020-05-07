@@ -63,7 +63,7 @@ def ret_urgptr(pkts):
 for fname in os.listdir('benign/'):
   try:
 	pkts = rdpcap('benign/'+str(fname))
-	s = "%.5f,%.5f,%.5f,%.5f,%.5f,%.5f,%.5f,%.5f" % (ret_duration(pkts),ret_length(pkts),ret_total_size(pkts),ret_feature4(pkts),ret_feature5(pkts),ret_feature6(pkts),ret_feature7(pkts),ret_feature8(pkts))
+	s = "%.5f,%.5f,%.5f,%.5f,%.5f,%.5f,%.5f,%.5f" % (ret_duration(pkts),ret_length(pkts),ret_total_size(pkts),ret_sourcep(pkts),ret_destp(pkts),ret_interval(pkts),ret_ttl(pkts),ret_urgptr(pkts))
 	feat_file.write(s+"\n")
 	label_file.write('0\n')
   except:
@@ -71,11 +71,9 @@ for fname in os.listdir('benign/'):
 
 for fname in os.listdir('malicious/'):
         pkts = rdpcap('malicious/'+str(fname))
-        s = "%.5f,%.5f,%.5f,%.5f,%.5f,%.5f,%.5f,%.5f" % (ret_duration(pkts),ret_length(pkts),ret_total_size(pkts),ret_feature4(pkts),ret_feature5(pkts),ret_feature6(pkts),ret_feature7(pkts),ret_feature8(pkts))
+        s = "%.5f,%.5f,%.5f,%.5f,%.5f,%.5f,%.5f,%.5f" % (ret_duration(pkts),ret_length(pkts),ret_total_size(pkts),ret_sourcep(pkts),ret_destp(pkts),ret_interval(pkts),ret_ttl(pkts),ret_urgptr(pkts))
         feat_file.write(s+"\n")
         label_file.write('1\n')
 
 feat_file.close()
 label_file.close()
-
-#test
