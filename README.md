@@ -17,6 +17,7 @@ depend on the internet to make our lives easier. Unfortunately, this involves th
 exponential likeliness of an intruder in our networks. The increase of the usage of
 applications like Zoom and Netflix lead us to believe that the increase of malware found
 in tampered installation software is more dangerous than ever.
+ 
   The purpose of this project is to ease the detection and understanding of the
 intrusions that may happen within a network. Godezilar is a python script that helps the
 user by reading PCAPs and providing a report on them. A PCAP is an application
@@ -24,6 +25,7 @@ programming interface (API) that captures the packets in a network traffic. PCAP
 be used as protocol analyzers, traffic generators, etc. For our purposes, the script reads
 a chosen PCAP to detect network intrusion as it contains packets that may help us
 identify potential malicious activity.
+  
   An anomaly-based IDS can be used in most situations to detect unwanted
 intrusion. The concept of its usage remains the same but implementations can vary
 widely as there are different methods of attacking different systems and programs. Our
@@ -49,6 +51,7 @@ behavior-based analysis, it is very adaptable to different test sets. In the sam
 used, including more features to observe decreased the accuracy and recall as a result
 of potentially overfitting the data. However, we felt this was necessary given our original
 model was very susceptible to underfitting with different types of network traffic.
+  
   In conclusion, the report prints what the script classifies as malicious or benign
 packets from the PCAP to ease the identification of the network traffic. At the end of the
 day, the script simply helps the user identify what could be an indication for intrusion
