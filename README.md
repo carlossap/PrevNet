@@ -1,6 +1,8 @@
 # Anomaly Based Intrusion Detection - CSE 3810
 Carlos Aguilar and Tony Godez
 
+Note: 'Godezilar.py' must be run with Python 2 & 'test.py' must be run with Python 3
+
 # Overview
   Throughout the semester, we covered several topics with information security.
 For this lab, students were tasked with producing a tool based on one of the course
