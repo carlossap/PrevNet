@@ -42,6 +42,7 @@ of the PCAP:
 6. Total size of stream
 7. Suspicious source port
 8. Suspicious destination port
+
 These features are analyzed through “sklearn” which uses a test set of benign
 traffic to establish a baseline to detect anomalous behavior. Since this is a
 behavior-based analysis, it is very adaptable to different test sets. In the sample we
