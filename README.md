@@ -1,7 +1,7 @@
 # Anomaly Based Intrusion Detection Tool
 Carlos Aguilar and Tony Godez
 
-Note: 'Godezilar.py' must be run with Python 2 & 'test.py' must be run with Python 3
+Note: 'PrevNet.py' must be run with Python 2 & 'test.py' must be run with Python 3
 
 # Overview
   This tool shall solve an aspect of the difficult problem of cyber defense.
