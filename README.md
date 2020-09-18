@@ -1,14 +1,11 @@
-# Anomaly Based Intrusion Detection - CSE 3810
+# Anomaly Based Intrusion Detection Tool
 Carlos Aguilar and Tony Godez
 
 Note: 'Godezilar.py' must be run with Python 2 & 'test.py' must be run with Python 3
 
 # Overview
-  Throughout the semester, we covered several topics with information security.
-For this lab, students were tasked with producing a tool based on one of the course
-topics and demonstrating mastery on that same topic. This tool shall solve an aspect of
-the difficult problem of cyber defense. The tool we have developed covers and reports
-on the topic of “Network Intrusion Detection” using PCAP files.
+  This tool shall solve an aspect of the difficult problem of cyber defense.
+The tool we have developed covers and reports on “Network Intrusion Detection” using PCAP files.
 
 # Background
   Network traffic captures are an amazing way to detect and prevent network
